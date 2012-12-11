@@ -1,0 +1,189 @@
+/*Epsilon theme for scriptogr.am
+By Jordan Merrick
+http://www.jordanmerrick.com
+
+Foundation Framework by ZURB http://foundation.zurb.com */
+
+/*Begin Epsilon CSS*/
+
+/*Fonts*/
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(http://themes.googleusercontent.com/static/fonts/vollkorn/v3/BCFBp4rt5gxxFrX6F12DKnYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url(http://themes.googleusercontent.com/static/fonts/vollkorn/v3/wMZpbUtcCo9GUabw9JODerrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/vollkorn/v3/KNiAlx6phRqXCwnZZG51JHbFhgvWbfSbdVg11QabG8w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url(http://themes.googleusercontent.com/static/fonts/vollkorn/v3/Oiz0tNwvC-Nd29SBQWfWTL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+
+/* @group League Gothic */
+
+@font-face {
+font-family: 'LeagueGothicRegular';
+src: url('fonts/League_Gothic-webfont.eot');
+src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/League_Gothic-webfont.woff') format('woff'),
+url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+/* @end */
+
+
+body, p {
+color: #444;
+background-color: #f0ebe5;
+font-family: 'Vollkorn', serif;
+font-size: 16px;
+}
+
+strong {
+font-weight: 700;
+}
+
+.top-border {
+display: block;
+border-top: 15px solid #444;
+}
+
+a:link, a:visited {
+text-decoration: underline;
+color: #444;
+transition: color .1s ease-in-out;
+-moz-transition: color .1s ease-in-out;
+-webkit-transition: color .1s ease-in-out;
+}
+
+a:hover {
+text-decoration: none;
+color: #999;
+}
+
+p a:link {
+text-decoration: underline;
+}
+
+p a:hover, a:active {
+text-decoration: none;
+}
+hr {
+border: 1px solid #444;
+}
+
+ul.menu a, .title a, ul.article-links a, .article-title a, ul.menu-mobile a{
+text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .article-links li a {
+font-family: LeagueGothicRegular;
+font-weight: normal;
+text-transform: uppercase;
+text-shadow: 1px 1px 1px #f2f2f2;
+}
+
+.slogan {
+color: #888;
+}
+
+code {
+background: #ccc;
+padding: 2px 5px;
+border-radius: 5px;
+border: 1px solid #bbb;
+}
+
+.menu, .menu-mobile {
+list-style-type: none;
+font-family: 'LeagueGothicRegular';
+
+}
+
+.menu-mobile li{
+margin: 0 10px;
+display: inline;
+}
+
+.menu-mobile li h4 {
+display: inline;
+}
+
+
+article {
+margin-bottom: 50px;
+}
+
+.date, .tagged {
+color: #888;
+cursor: default;
+}
+
+.article-links {
+list-style: none;
+}
+
+.article-links li a {
+font-size: 20px;
+text-transform: uppercase;
+}
+
+.footer {
+margin: 25px 0;
+}
+
+blockquote {
+border-left: 4px double #ccc;
+}
+
+.pagination ul {
+font-family: 'LeagueGothicRegular';
+list-style-type: none;
+text-align: center;
+}
+.pagination a {
+	font-size: 30px;
+	text-decoration: none;
+}
+.pagination ul li{
+margin: 5px;
+display: inline;
+}
+
+.pagination ul li.active a {
+font-size: 48px;
+}
+
+.pagination li.next, .pagination li.prev {
+margin: 0 20px;
+}
+
+ul.tags{
+list-style-type: none;
+}
+
+ul.tags li a {
+	font-family: 'LeagueGothicRegular';
+text-decoration: none;
+		font-size: 22px;
+		text-transform: uppercase;
+		
+}
