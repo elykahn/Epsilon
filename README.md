@@ -1,6 +1,15 @@
 ## Epsilon theme for Scriptogr.am ##
 
-Epsilon is a responsive theme for the blogging platform Scriptogr.am. 
+Epsilon is a responsive web template for Dropbox-powered blogging platform Scriptogr.am. Features include a fully responsive site for large and small displays, custom fonts. easy to read and quick to load. 
+
+A demo can be found on my [Scriptogr.am site](http://scriptogr.am/jordanmerrick).
+
+###Features###
+
+- Fully responsive design (wraps beautifully to a mobile device) thanks to the [Foundation](http://foundation.zurb.com) framework.
+- Custom web fonts ([Volkorn](http://www.google.com/webfonts/specimen/Vollkorn) and [League Gothic](http://www.theleagueofmoveabletype.com/league-gothic)). 
+- Send to [Instapaper](http://instapaper.com) and [Readability](http://readability.com) support.
+- Link-post friendly. All posts contain a *permalink* link. 
 
 ### Requirements ###
 
