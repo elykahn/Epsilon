@@ -24,8 +24,10 @@ Since Scriptogr.am requires you have a Dropbox account, using your Dropbox publi
 3. Copy the contents of the *index.html* from the *Epsilon* folder into the HTML editor on Scriptogr.am.
 4. Go to your Dropbox public folder, right click on the *style.css* file in the *Epsilon* folder and  copy the public link. It’s usually along the lines of *https://dl.dropbox.com/u/1234567/Epsilon/style.css*
 5. Update the paths for CSS and JS (labelled in the header section) using the public link. 
-6. Save the HTML and that’s it. 
+6. Save the HTML and that’s it.
 
 ### Credits ###
 
 This theme wouldn’t be possible without the use of [Google Fonts](http://google.com/webfonts), [League Gothic](http://www.theleagueofmoveabletype.com/league-gothic) and [Foundation](http://foundation.zurb.com). 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
