@@ -10,10 +10,10 @@ Since Scriptogr.am requires you have a Dropbox account, using your Dropbox publi
 
 ### Installation ###
 
-1. Download the project files and copy the *epsilon* folder to your Dropbox public folder. 
+1. Download the project files and copy the *Epsilon* folder to your Dropbox public folder. 
 2. Log in to Scriptogr.am, select *Tools > CSS editor* and clear the contents of it (we’re not using it). 
-3. Copy the contents of the *index.html* from the *epsilon* folder into the HTML editor on Scriptogr.am.
-4. Go to your Dropbox public folder, right click on the *style.css* file in the *epsilon* folder and  copy the public link. It’s usually along the lines of *https://dl.dropbox.com/u/1234567/Epsilon/style.css*
+3. Copy the contents of the *index.html* from the *Epsilon* folder into the HTML editor on Scriptogr.am.
+4. Go to your Dropbox public folder, right click on the *style.css* file in the *Epsilon* folder and  copy the public link. It’s usually along the lines of *https://dl.dropbox.com/u/1234567/Epsilon/style.css*
 5. Update the paths for CSS and JS (labelled in the header section) using the public link. 
 6. Save the HTML and that’s it. 
 
